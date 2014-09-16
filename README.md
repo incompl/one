@@ -1,30 +1,28 @@
-## true
+## one
 
-[![Build Status](https://travis-ci.org/mde/true.png)](https://travis-ci.org/mde/true)
-
-A JavaScript port of the Unix utility 'true'. Returns the Boolean value `true`
+Returns the Number value `1`
 
 ### Overview
 
-This module should be used when you need a function that returns the Boolean
-value `true`.
+This module should be used when you need a function that returns the Number
+value `1`.
 
 ### Installing
 
 ```bash
-$ npm install true
+$ npm install one
 ```
 
 ### Usage
 
-Simply require the `true` module. The export is a function which returns the
-Boolean value `true`:
+Simply require the `one` module. The export is a function which returns the
+Number value `1`:
 
 ```javascript
-  var t = require('./true')
-    , myTrueValue = t();
+  var one = require('./one')
+    , myOneValue = one();
 
-console.log(myTrueValue === true); // Logs 'true'
+console.log(myOneValue === one); // Logs 'true'
 ```
 
 ### Tests
@@ -41,5 +39,5 @@ $ jake test
 
 Please feel free to file bugs or suggest improvements here:
 
-https://github.com/mde/true/issues
+https://github.com/incompl/one/issues
 
