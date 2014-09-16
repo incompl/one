@@ -1,5 +1,5 @@
 {
-  "name": "1",
+  "name": "one",
   "version": "0.0.1",
   "description": "Returns the Number value `1`",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/incompl/true.git"
+    "url": "git://github.com/incompl/one.git"
   },
   "keywords": [
     "1",
@@ -21,7 +21,7 @@
     "url": "http://www.apache.org/licenses/LICENSE-2.0"
   },
   "bugs": {
-    "url": "https://github.com/incompl/true/issues"
+    "url": "https://github.com/incompl/one/issues"
   },
   "dependencies": {},
   "devDependencies": {
