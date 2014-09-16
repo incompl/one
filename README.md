@@ -19,7 +19,7 @@ Simply require the `one` module. The export is a function which returns the
 Number value `1`:
 
 ```javascript
-  var one = require('./one')
+  var one = require('./one-aka-1')
     , myOneValue = one();
 
 console.log(myOneValue === one); // Logs 'true'
