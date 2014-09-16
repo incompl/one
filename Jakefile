@@ -1,4 +1,4 @@
-testTask('True', function () {
+testTask('One', function () {
   this.testFiles.include('test/*.js');
 });
 
