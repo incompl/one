@@ -1,11 +1,11 @@
 
-var t = require('../index')
+var one = require('../index')
   , assert = require("assert")
   , tests;
 
 tests = {
-  'test that true returns the Boolean value `true`': function () {
-    assert.strictEqual(true, t());
+  'test that one returns the Number value `1`': function () {
+    assert.strictEqual(1, one());
   }
 };
 
